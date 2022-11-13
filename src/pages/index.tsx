@@ -285,8 +285,8 @@ const Home: NextPage = () => {
 
           <p className="text-3xl text-gray-500">
             Todo lists are nice. In moderation. Making a todo list for being a human doesn't feel good; ticking the
-            boxes feel artifical. Instead, let's keep a high-level list, and have specific lists for things we find
-            overwhelming.
+            boxes feel artifical. I prefer keeping a high-level list, and only have specific lists for important things
+            we find overwhelming.
           </p>
 
           <div className="mb-5" />
