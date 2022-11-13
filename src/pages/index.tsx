@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { config } from '@/config'
 
 const sections = {
   morning: {
@@ -26,7 +26,7 @@ const sections = {
         emoji: '🚶‍♂️',
         title: 'Walk Routine',
         description:
-          'Get out of the house and take a morning walk. Get that hard pumping as you hustle through the day.',
+          'Get out of the house and take a morning walk. Get that heart pumping as you hustle through the day.',
       },
       {
         emoji: '🤠',
@@ -93,7 +93,7 @@ const Home: NextPage = () => {
       <div className="isolate bg-white">
         <div className="absolute inset-x-0 top-[-10rem] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[-20rem]">
           <svg
-            className="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem]"
+            className="relative left-[calc(50%-11rem)] -z-10 h-[21.1875rem] max-w-none -translate-x-1/2 rotate-[30deg] sm:left-[calc(50%-30rem)] sm:h-[42.375rem] pointer-events-none"
             viewBox="0 0 1155 678"
             fill="none"
             xmlns="http://www.w3.org/2000/svg">
@@ -122,8 +122,8 @@ const Home: NextPage = () => {
             <nav className="flex h-9 items-center justify-between" aria-label="Global">
               <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
                 <a href="#" className="-m-1.5 p-1.5">
-                  <span className="sr-only">Your Company</span>
-                  <img className="h-8" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
+                  <span className="sr-only">{config.app.title}</span>
+                  <img className="h-8" src="https://tailwindui.com/img/logos/mark.svg?color=teal&shade=600" alt="" />
                 </a>
               </div>
             </nav>
@@ -284,7 +284,7 @@ const Home: NextPage = () => {
           <div className="mb-5" />
 
           <p className="text-3xl text-gray-500">
-            Todo lists are nice. But not too much. Making a todo list for being a human doesn't feel good; ticking the
+            Todo lists are nice. In moderation. Making a todo list for being a human doesn't feel good; ticking the
             boxes feel artifical. Instead, let's keep a high-level list, and have specific lists for things we find
             overwhelming.
           </p>

@@ -1,8 +1,8 @@
 const config = {
   app: {
-    title: "Habits",
-    tagline: "Personal expense tracker for lazy people",
+    title: 'Building Habits — Kier Borromeo',
+    tagline: 'Getting myself back on track',
   },
-};
+}
 
-export { config };
+export { config }
