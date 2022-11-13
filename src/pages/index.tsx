@@ -298,7 +298,7 @@ const Home: NextPage = () => {
 
           <div className="mb-5" />
 
-          <p className="text-3xl text-gray-500">Enjoy the small things in life, and chew your food slowly.</p>
+          <p className="text-3xl text-gray-500">Enjoy the small things in life. Start by chewing your food slowly.</p>
 
           <div className="mb-5" />
 
