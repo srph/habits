@@ -306,6 +306,12 @@ const Home: NextPage = () => {
             Spend more time with your people. Appreciate the small details. Do more of your hobbies. Take more water
             breaks.
           </p>
+
+          <div className="mb-5" />
+
+          <p className="text-3xl text-gray-500">
+            Games are for spending time with friends. Be competitive, but enjoyment is king. Tilting is for lazy people.
+          </p>
         </div>
       </div>
 
